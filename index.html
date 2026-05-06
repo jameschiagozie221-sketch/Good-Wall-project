@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wild Animal Facts by James Chiagozie Prince</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            padding: 30px 0;
+        }
+        
+        .header h1 {
+            font-size: 2.8rem;
+            margin: 0;
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-8px);
+        }
+        
+        .emoji-box {
+            width: 100%;
+            height: 250px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8rem;
+            border-bottom: 5px solid #0f4c75;
+        }
+        
+        .card-content {
+            padding: 25px;
+        }
+        
+        .card h2 {
+            color: #0f4c75;
+            margin: 0 0 15px 0;
+            font-size: 1.8rem;
+            text-align: center;
+        }
+        
+        .fact {
+            background: #e8f4f8;
+            padding: 15px;
+            border-left: 5px solid #3282b8;
+            margin: 15px 0;
+            border-radius: 8px;
+            line-height: 1.6;
+        }
+        
+        .fact strong {
+            color: #0f4c75;
+            font-size: 1.1rem;
+        }
+        
+        .location {
+            color: #666;
+            font-style: italic;
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 50px;
+            padding: 30px;
+            border-top: 2px solid #3282b8;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 { font-size: 2rem; }
+            .gallery { grid-template-columns: 1fr; }
+            .emoji-box { font-size: 6rem; height: 200px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌍 WILD ANIMAL FACTS 🦁</h1>
+        <p>8 Crazy Animals That Will Blow Your Mind!</p>
+        <p>HTML & CSS Project for Good Wall Certification</p>
+    </div>
+
+    <div class="gallery">
+        
+        <!-- 1. Elephant -->
+        <div class="card">
+            <div class="emoji-box">🐘</div>
+            <div class="card-content">
+                <h2>African Elephant</h2>
+                <div class="fact">
+                    <strong>CRAZY FACT:</strong> Elephant dey cry when sad! Dem get funeral for dead family members and remember humans wey hurt them after 20 years. No forget!
+                </div>
+                <p class="location">Location: African Savanna</p>
+            </div>
+        </div>
+
+        <!-- 2. Tiger -->
+        <div class="card">
+            <div class="emoji-box">🐅</div>
+            <div class="card-content">
+                <h2>Bengal Tiger</h2>
+                <div class="fact">
+                    <strong>CRAZY FACT:</strong> Tiger skin get stripes too, not only fur! And their roar fit burst your eardrum from 3km away. Loud pass DJ for club!
+                </div>
+                <p class="location">Location: India Forests</p>
+            </div>
+        </div>
+
+        <!-- 3. Penguin -->
+        <div class="card">
+            <div class="emoji-box">🐧</div>
+            <div class="card-content">
+                <h2>Emperor Penguin</h2>
+                <div class="fact">
+                    <strong>CRAZY FACT:</strong> Male penguin dey carry egg for leg 2 months straight! No chop, no sleep, for -60°C cold. Father of the year award!
+                </div>
+                <p class="location">Location: Antarctica</p>
+            </div>
+        </div>
+
+        <!-- 4. Lion -->
+        <div class="card">
+            <div class="emoji-box">🦁</div>
+            <div class="card-content">
+                <h2>African Lion</h2>
+                <div class="fact">
+                    <strong>CRAZY FACT:</strong> Lion sleep 20 hours per day! King of jungle but na lazy king. Female lions do 90% of hunting. Queen dey work!
+                </div>
+                <p class="location">Location: African Grasslands</p>
+            </div>
+        </div>
+
+        <!-- 5. Koala -->
+        <div class="card">
+            <div class="emoji-box">🐨</div>
+            <div class="card-content">
+                <h2>Koala</h2>
+                <div class="fact">
+                    <strong>CRAZY FACT:</strong> Koala brain smooth like egg! Eucalyptus leaf make them sleep 22 hours daily. Dem basically dey sleep all day on eucalyptus!
+                </div>
+                <p class="location">Location: Australia</p>
+            </div>
+        </div>
+
+        <!-- 6. Wolf -->
+        <div class="card">
+            <div class="emoji-box">🐺</div>
+            <div class="card-content">
+                <h2>Gray Wolf</h2>
+                <div class="fact">
+                    <strong>CRAZY FACT:</strong> Wolf fit hear you from 10km away! And when dem howl, na GPS for pack. Each wolf get unique howl like fingerprint!
+                </div>
+                <p class="location">Location: North America Forests</p>
+            </div>
+        </div>
+
+        <!-- 7. Panda -->
+        <div class="card">
+            <div class="emoji-box">🐼</div>
+            <div class="card-content">
+                <h2>Giant Panda</h2>
+                <div class="fact">
+                    <strong>CRAZY FACT:</strong> Baby panda small pass mouse when born! 1/900 of mama size. But e eat 12kg bamboo daily to become 100kg. Chop life!
+                </div>
+                <p class="location">Location: China Mountains</p>
+            </div>
+        </div>
+
+        <!-- 8. Giraffe -->
+        <div class="card">
+            <div class="emoji-box">🦒</div>
+            <div class="card-content">
+                <h2>Giraffe</h2>
+                <div class="fact">
+                    <strong>CRAZY FACT:</strong> Giraffe heart weigh 11kg and pump blood 2 meters up to brain! If e bend down fast, brain go explode. So e dey spread legs first!
+                </div>
+                <p class="location">Location: African Savanna</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p><strong>Created by James Chiagozie Prince</strong></p>
+        <p>Built with Pure HTML & CSS | Good Wall Certification Project © 2026</p>
+        <p>Maranatha! We go win! 🙏</p>
+    </div>
+</body>
+</html>
